@@ -1,15 +1,7 @@
-.post:has(.big-post) .post-post {
-    flex:1;
-    margin-left:10px;
-}
-.post:has(.big-post) .post-perfil {
-    display:none
-}
-
 /* CONTENEDOR PRINCIPAL */
 
 .wiki-lorienn {
-/* VARIABLES GENERALES DE LORIENNPEDIA */
+/* VARIABLES GENERALES */
     --wiki-blue: #405f73;
     --wiki-blue-light: #7895aa;
     --wiki-border: #cbd8e2;
@@ -57,7 +49,6 @@
     margin-bottom: 16px;
 }
 
-
 /* TEXTO GENERAL */
 
 .wiki-lorienn .wiki-text {
@@ -98,8 +89,7 @@
     border-radius: 2px;
 }
 
-
-/* ============
+/* ================
    FICHA INFORMATIVA
    ================ */
 
@@ -192,8 +182,7 @@
     min-width: 0;
 }
 
-
-/* ===================
+/* ==================
    ÍNDICE DESPLEGABLE
   ================= */
 
@@ -243,7 +232,6 @@
 .wiki-lorienn .wiki-toc-sub {
     padding-left: 18px;
 }
-
 
 /* ======================
    SECCIONES DESPLEGABLES
@@ -327,9 +315,9 @@
 }
 
 
-/* ====================
+/* ===============
    SUBSECCIONES
-   ===================== */
+   =============== */
 
 .wiki-lorienn .wiki-subsection {
     font-family: Roboto, Lato, Arial, sans-serif;
@@ -341,9 +329,9 @@
 }
 
 
-/* ==============
+/* =========
    TABLAS 
-   ============= */
+   ========= */
 
 .wiki-lorienn .wiki-table {
     display: block;
@@ -381,7 +369,6 @@
     border-bottom: 0;
 }
 
-
 /* ===================
    NOTAS Y RECUADROS
    =================== */
@@ -409,10 +396,9 @@
     margin-bottom: 6px;
 }
 
-
-/* ===============
+/* =========
    LISTAS
-   =============== */
+   ========= */
 
 .wiki-lorienn ul,
 .wiki-lorienn ol {
@@ -425,9 +411,9 @@
 }
 
 
-/* ===============
+/* ============
    CATEGORÍAS
-   ================ */
+   ============ */
 
 .wiki-lorienn .wiki-categories {
     border: 1px solid #a2a9b1;
@@ -438,9 +424,9 @@
     clear: both;
 }
 
-/* ==================================
+/* =============================
    MAPA INTERACTIVO DE LORIENN
-================================== */
+=============================== */
 
 .wiki-lorienn .wiki-island-map {
     --map-line: #a7b8c9;
@@ -2626,9 +2612,9 @@
     color: var(--wiki-blue);
 }
 
-/* =========================
+/* ====================
    COMERCIO EXTERIOR
-========================= */
+===================== */
 
 .wiki-lorienn .wiki-foreign-trade{
     margin: 24px 0;
@@ -4621,42 +4607,42 @@
     padding: 16px 10px;
     }
 
-.wiki-lorienn .economic-heading h3,
-.wiki-lorienn .pib-heading h3 {
+   .wiki-lorienn .economic-heading h3,
+   .wiki-lorienn .pib-heading h3 {
     font-size: 15px;
 }
 
-.wiki-lorienn .economic-grid {
+    .wiki-lorienn .economic-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 9px;
 }
 
-.wiki-lorienn .economic-card {
+    .wiki-lorienn .economic-card {
     padding: 13px 10px;
 }
 
-.wiki-lorienn .economic-card h4 {
+    .wiki-lorienn .economic-card h4 {
     font-size: 12px;
     min-height: 0;
 }
 
-.wiki-lorienn .economic-card ul {
+    .wiki-lorienn .economic-card ul {
     font-size: 9px;
 }
 
-.wiki-lorienn .economic-origin {
+    .wiki-lorienn .economic-origin {
     padding: 11px 14px;
     font-size: 9px;
 }
 
-.wiki-lorienn .pib-table {
+    .wiki-lorienn .pib-table {
     min-width: 430px;
 }
 
-.wiki-lorienn .pib-table td,
-.wiki-lorienn .pib-table th {
+    .wiki-lorienn .pib-table td,
+    .wiki-lorienn .pib-table th {
     padding: 10px;
-}
+    }
     /* COMERCIO EXTERIOR Y SISTEMA MONETARIO */
 
     .wiki-lorienn .wiki-foreign-trade,
@@ -4664,79 +4650,79 @@
     padding: 16px 10px;
     }
 
-.wiki-lorienn .trade-heading h3,
-.wiki-lorienn .currency-heading h3 {
+    .wiki-lorienn .trade-heading h3,
+    .wiki-lorienn .currency-heading h3 {
     font-size: 16px;
-}
+    }
 
-.wiki-lorienn .trade-grid {
+    .wiki-lorienn .trade-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 9px;
-}
+    }
 
-.wiki-lorienn .trade-card-header {
+    .wiki-lorienn .trade-card-header {
     padding: 12px 10px;
     gap: 7px;
-}
+    }
 
-.wiki-lorienn .trade-card-header h4 {
+    .wiki-lorienn .trade-card-header h4 {
     font-size: 11px;
-}
+    }
 
-.wiki-lorienn .trade-card-number {
+    .wiki-lorienn .trade-card-number {
     font-size: 17px;
-}
+    }
 
-.wiki-lorienn .trade-card-body {
+    .wiki-lorienn .trade-card-body {
     padding: 12px 10px;
-}
+    }
 
-.wiki-lorienn .trade-card-body ul {
+    .wiki-lorienn .trade-card-body ul {
     font-size: 10px;
     line-height: 1.7;
-}
+    }
 
-.wiki-lorienn .trade-card-footer {
+    .wiki-lorienn .trade-card-footer {
     font-size: 7px;
     padding: 9px 5px;
-}
+    }
 
-.wiki-lorienn .trade-origin {
+    .wiki-lorienn .trade-origin {
     padding: 11px 14px;
     font-size: 9px;
-}
+    }
 
-.wiki-lorienn .currency-highlight {
+    .wiki-lorienn .currency-highlight {
     grid-template-columns: 55px minmax(0, 1fr) auto;
     gap: 10px;
     padding: 13px 10px;
-}
+    }
 
-.wiki-lorienn .currency-symbol {
+   .wiki-lorienn .currency-symbol {
     width: 52px;
     height: 52px;
     font-size: 23px;
-}
+    }
 
-.wiki-lorienn .currency-highlight-info strong {
+    .wiki-lorienn .currency-highlight-info strong {
     font-size: 13px;
-}
+   }
 
-.wiki-lorienn .currency-code {
+   .wiki-lorienn .currency-code {
     padding-left: 10px;
-}
+   }
 
-.wiki-lorienn .currency-code strong {
+   .wiki-lorienn .currency-code strong {
     font-size: 15px;
-}
+   }
 
-.wiki-lorienn .currency-table th {
+   .wiki-lorienn .currency-table th {
     width: 38%;
     padding: 10px 8px;
     font-size: 9px;
-}
+   }
 
-.wiki-lorienn .currency-table td {
+   .wiki-lorienn .currency-table td {
     padding: 10px 8px;
     font-size: 10px;
    }
@@ -4747,235 +4733,322 @@
     padding: 16px 10px;
    }
 
-.wiki-lorienn .tourism-heading h3,
-.wiki-lorienn .territorial-heading h3 {
+   .wiki-lorienn .tourism-heading h3,
+   .wiki-lorienn .territorial-heading h3 {
     font-size: 16px;
 }
 
-.wiki-lorienn .tourism-grid {
+   .wiki-lorienn .tourism-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 9px;
 }
 
-.wiki-lorienn .tourism-card {
+   .wiki-lorienn .tourism-card {
     padding: 13px 10px;
 }
 
-.wiki-lorienn .tourism-card h4 {
+   .wiki-lorienn .tourism-card h4 {
     min-height: 0;
     font-size: 11px;
 }
 
-.wiki-lorienn .tourism-card ul {
+   .wiki-lorienn .tourism-card ul {
     font-size: 9px;
-}
+   }
 
 /* DISTRIBUCIÓN TERRITORIAL */
 
-.wiki-lorienn .wiki-territorial-structure {
+  .wiki-lorienn .wiki-territorial-structure {
     padding: 16px 10px;
 }
 
-.wiki-lorienn .territorial-details {
+   .wiki-lorienn .territorial-details {
     grid-template-columns: 1fr;
     gap: 9px;
 }
 
-.wiki-lorienn .territorial-regional-grid {
+   .wiki-lorienn .territorial-regional-grid {
     grid-template-columns: 1fr;
     gap: 9px;
 }
 
-.wiki-lorienn .territorial-peripheral-grid {
+   .wiki-lorienn .territorial-peripheral-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 9px;
 }
 
-.wiki-lorienn .territorial-place,
-.wiki-lorienn .territorial-peripheral {
+   .wiki-lorienn .territorial-place,
+   .wiki-lorienn .territorial-peripheral {
     padding: 12px;
-}
+   }
 
     /* CONECTIVIDAD MULTIMODAL */
 
-.wiki-lorienn .wiki-multimodal,
-.wiki-lorienn .wiki-secular-state {
+  .wiki-lorienn .wiki-multimodal,
+  .wiki-lorienn .wiki-secular-state {
     padding: 16px 10px;
-}
+  }
 
-.wiki-lorienn .multimodal-heading h3,
-.wiki-lorienn .secular-heading h3 {
+   .wiki-lorienn .multimodal-heading h3,
+   .wiki-lorienn .secular-heading h3 {
     font-size: 16px;
-}
+   }
 
-.wiki-lorienn .multimodal-system {
+   .wiki-lorienn .multimodal-system {
     grid-template-columns: 35px minmax(0, 1fr);
     gap: 10px;
     padding: 12px 9px;
-}
+   }
 
-.wiki-lorienn .multimodal-icon {
+   .wiki-lorienn .multimodal-icon {
     width: 32px;
     height: 32px;
     font-size: 13px;
-}
+   }
 
-.wiki-lorienn .multimodal-details {
+   .wiki-lorienn .multimodal-details {
     grid-template-columns: 1fr;
-}
+   }
 
-.wiki-lorienn .multimodal-maritime-flow {
+   .wiki-lorienn .multimodal-maritime-flow {
     grid-template-columns: minmax(0, 1fr);
     gap: 6px;
-}
+   }
 
-.wiki-lorienn .multimodal-maritime-arrow {
+   .wiki-lorienn .multimodal-maritime-arrow {
     transform: rotate(90deg);
     font-size: 20px;
-}
+   }
 
-.wiki-lorienn .multimodal-maritime-node {
+   .wiki-lorienn .multimodal-maritime-node {
     padding: 10px;
-}
+   }
 
 /* ESTADO SECULAR */
 
-.wiki-lorienn .secular-grid {
+   .wiki-lorienn .secular-grid {
     grid-template-columns: 1fr;
     gap: 9px;
-}
+   }
 
-.wiki-lorienn .secular-card {
+   .wiki-lorienn .secular-card {
     padding: 13px;
-}
+   }
 
-.wiki-lorienn .secular-card h4 {
+   .wiki-lorienn .secular-card h4 {
     min-height: 0;
     font-size: 12px;
-}
+   }
 
-.wiki-lorienn .secular-card p {
+   .wiki-lorienn .secular-card p {
     font-size: 10px;
-}
+   }
 
-.wiki-lorienn .secular-origin {
+   .wiki-lorienn .secular-origin {
     padding: 16px 10px;
-}
+   }
 
-.wiki-lorienn .secular-principles {
+   .wiki-lorienn .secular-principles {
     gap: 5px;
-}
+   }
 
-.wiki-lorienn .secular-principles span {
+   .wiki-lorienn .secular-principles span {
     padding: 5px 7px;
     font-size: 8px;
     }
 
     /* SISTEMA EDUCATIVO */
 
-.wiki-lorienn .wiki-education-system {
+   .wiki-lorienn .wiki-education-system {
     padding: 19px 11px;
     margin: 20px auto;
 }
 
-.wiki-lorienn .education-heading {
+   .wiki-lorienn .education-heading {
     margin-bottom: 22px;
 }
 
-.wiki-lorienn .education-heading h3 {
+   .wiki-lorienn .education-heading h3 {
     font-size: 19px;
 }
 
-.wiki-lorienn .education-heading p {
+   .wiki-lorienn .education-heading p {
     font-size: 10px;
 }
 
-.wiki-lorienn .education-card {
+   .wiki-lorienn .education-card {
     gap: 11px;
     min-height: 90px;
     padding: 14px 12px;
 }
 
-.wiki-lorienn .education-number {
+   .wiki-lorienn .education-number {
     width: 31px;
     height: 31px;
     font-size: 11px;
 }
 
-.wiki-lorienn .education-card h4 {
+   .wiki-lorienn .education-card h4 {
     font-size: 14px;
 }
 
-.wiki-lorienn .education-card p {
+   .wiki-lorienn .education-card p {
     font-size: 9px;
 }
 
-.wiki-lorienn .education-connector {
+   .wiki-lorienn .education-connector {
     height: 23px;
 }
 
 /* BIFURCACIÓN */
 
-.wiki-lorienn .education-branch-grid {
+   .wiki-lorienn .education-branch-grid {
     grid-template-columns: 1fr;
     gap: 12px;
 }
 
-.wiki-lorienn .education-path {
+   .wiki-lorienn .education-path {
     padding: 14px;
 }
 
-.wiki-lorienn .education-path-header h4 {
+   .wiki-lorienn .education-path-header h4 {
     font-size: 16px;
 }
 
-.wiki-lorienn .education-path > p {
+   .wiki-lorienn .education-path > p {
     font-size: 9px;
 }
 
-.wiki-lorienn .education-orientation {
+   .wiki-lorienn .education-orientation {
     padding: 9px;
 }
 
-.wiki-lorienn .education-orientation p {
+   .wiki-lorienn .education-orientation p {
     font-size: 9px;
 }
 
-.wiki-lorienn .education-branch-title strong {
+   .wiki-lorienn .education-branch-title strong {
     font-size: 13px;
 }
 
-.wiki-lorienn .education-branch-title small {
+   .wiki-lorienn .education-branch-title small {
     font-size: 8px;
 }
 
 /* EDUCACIÓN SUPERIOR */
 
-.wiki-lorienn .education-university-types,
-.wiki-lorienn .education-postgraduate-types {
+   .wiki-lorienn .education-university-types,
+   .wiki-lorienn .education-postgraduate-types {
     gap: 5px;
 }
 
-.wiki-lorienn .education-university-types span,
-.wiki-lorienn .education-postgraduate-types span {
+   .wiki-lorienn .education-university-types span,
+   .wiki-lorienn .education-postgraduate-types span {
     font-size: 8px;
     padding: 5px 7px;
 }
 
 /* NOTA */
 
-.wiki-lorienn .education-system-note {
+   .wiki-lorienn .education-system-note {
     padding: 11px;
     gap: 8px;
-}
+    }
 
-.wiki-lorienn .education-system-note p {
+   .wiki-lorienn .education-system-note p {
     font-size: 8px;
     }
 
+    /* ATENCIÓN SANITARIA */
+
+.wiki-lorienn .wiki-health-system,
+.wiki-lorienn .wiki-sports-system,
+.wiki-lorienn .wiki-festivals {
+    padding: 16px 11px;
 }
 
-/* ========================
+.wiki-lorienn .health-heading h3,
+.wiki-lorienn .sports-heading h3,
+.wiki-lorienn .festivals-heading h3 {
+    font-size: 16px;
+}
+
+.wiki-lorienn .health-grid {
+    grid-template-columns: 1fr;
+    gap: 9px;
+}
+
+.wiki-lorienn .health-card {
+    padding: 14px;
+}
+
+.wiki-lorienn .health-description {
+    min-height: 0;
+}
+
+.wiki-lorienn .health-card ul {
+    gap: 10px;
+}
+
+/* DEPORTES */
+
+.wiki-lorienn .sports-grid {
+    grid-template-columns: 1fr;
+    gap: 9px;
+}
+
+.wiki-lorienn .sports-card {
+    padding: 14px;
+}
+
+.wiki-lorienn .sports-card h4,
+.wiki-lorienn .sports-card > p {
+    min-height: 0;
+}
+
+.wiki-lorienn .sports-card ul {
+    gap: 10px;
+  }
+
+/* FESTIVIDADES */
+
+  .wiki-lorienn .festival-item {
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 10px;
+    padding: 11px;
+}
+
+  .wiki-lorienn .festival-date {
+    min-height: 65px;
+}
+
+  .wiki-lorienn .festival-symbol {
+    font-size: 19px;
+}
+
+  .wiki-lorienn .festival-season {
+    font-size: 7px;
+}
+
+  .wiki-lorienn .festival-content h4 {
+    font-size: 14px;
+}
+
+  .wiki-lorienn .festival-content p {
+    font-size: 9px;
+}
+
+  .wiki-lorienn .festival-number {
+    display: none;
+}
+
+  .wiki-lorienn .festival-subtitle {
+    line-height: 1.5;
+  }
+
+}
+
+/* =====================
    TELÉFONOS PEQUEÑOS
 ======================== */
 
