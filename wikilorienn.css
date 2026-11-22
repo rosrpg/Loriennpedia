@@ -258,6 +258,87 @@
     color: #d2e8fa;
 }
 
+/* indice */
+
+.wiki-lorienn[data-theme="dark"] .wiki-toc {
+    background: #202b35;
+    border-color: #455665;
+    color: #dce5ed;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-toc summary {
+    color: #edf3f8;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-toc summary:after {
+    color: #9fc5e3;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-toc-content {
+    color: #cbd7e1;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-toc a {
+    color: #9fc5e3;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-toc a:hover {
+    color: #d2e8fa;
+}
+
+/* tablas */
+
+.wiki-lorienn[data-theme="dark"] .wiki-table {
+    background: #202b35;
+    border-color: #455665;
+    color: #dce5ed;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-table-head {
+    background: #344656;
+    color: #edf3f8;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-table-head > div,
+.wiki-lorienn[data-theme="dark"] .wiki-table-row > div {
+    border-color: #455665;
+    color: #dce5ed;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-table-head > div:first-child,
+.wiki-lorienn[data-theme="dark"] .wiki-table-row > div:first-child {
+    border-right-color: #455665;
+}
+
+/* cuadro lore */
+
+.wiki-lorienn[data-theme="dark"] .wiki-lore-box {
+    background: #202b35;
+    border-color: #455665;
+    color: #dce5ed;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-lore-box-title {
+    color: #edf3f8;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-lore-box p {
+    color: #cbd7e1;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-lore-box strong {
+    color: #e4edf5;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-lore-box a {
+    color: #9fc5e3;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-lore-box a:hover {
+    color: #d2e8fa;
+}
+
+
 /* ================
    FICHA INFORMATIVA
    ================ */
