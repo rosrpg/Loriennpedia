@@ -5584,16 +5584,150 @@
 
   .wiki-lorienn .festival-content p {
     font-size: 9px;
-}
+  }
 
   .wiki-lorienn .festival-number {
     display: none;
-}
+  }
 
   .wiki-lorienn .festival-subtitle {
     line-height: 1.5;
   }
 
+/* TABLA GENERAL */
+
+.wiki-lorienn .wiki-table {
+    font-size: 11px;
+}
+
+.wiki-lorienn .wiki-table-head,
+.wiki-lorienn .wiki-table-row {
+    grid-template-columns: 32% 68%;
+}
+
+.wiki-lorienn .wiki-table-head > div,
+.wiki-lorienn .wiki-table-row > div {
+    padding: 7px 6px;
+    line-height: 1.45;
+}
+
+/* ESTRATIGRAFÍA */
+
+.wiki-lorienn .stratigraphy-table {
+    min-width: 620px;
+    font-size: 10px;
+}
+
+.wiki-lorienn .stratigraphy-table th {
+    padding: 10px 6px;
+    font-size: 10px;
+}
+
+.wiki-lorienn .stratigraphy-table td {
+    padding: 10px 9px;
+}
+
+.wiki-lorienn .stratigraphy-table li {
+    font-size: 10px;
+    line-height: 1.45;
+    margin: 6px 0;
+}
+
+.wiki-lorienn .stratigraphy-period {
+    font-size: 8px;
+    margin-bottom: 7px;
+}
+
+/* DINÁMICA ESTACIONAL */
+
+.wiki-lorienn .seasonal-table {
+    min-width: 650px;
+    font-size: 10px;
+}
+
+.wiki-lorienn .seasonal-table th {
+    padding: 9px 6px;
+    font-size: 10px;
+}
+
+.wiki-lorienn .seasonal-table td {
+    padding: 9px 8px;
+    font-size: 10px;
+    line-height: 1.45;
+}
+
+.wiki-lorienn .seasonal-table .seasonal-dates td {
+    padding: 7px 4px;
+    font-size: 9px;
+}
+
+.wiki-lorienn .seasonal-table li {
+    margin-bottom: 5px;
+}
+
+/* DISTRIBUCIÓN DEL PIB */
+
+.wiki-lorienn .pib-table {
+    min-width: 430px;
+    font-size: 10px;
+}
+
+.wiki-lorienn .pib-table th {
+    padding: 9px 10px;
+    font-size: 9px;
+}
+
+.wiki-lorienn .pib-table td {
+    padding: 9px 10px;
+    font-size: 10px;
+}
+
+.wiki-lorienn .pib-sector {
+    margin-bottom: 6px;
+}
+
+.wiki-lorienn .pib-value {
+    font-size: 11px;
+}
+
+.wiki-lorienn .pib-table tfoot td {
+    padding: 10px;
+    font-size: 9px;
+}
+
+.wiki-lorienn .pib-table tfoot td:last-child {
+    font-size: 11px;
+}
+
+/* SISTEMA MONETARIO */
+
+.wiki-lorienn .currency-table {
+    font-size: 10px;
+}
+
+.wiki-lorienn .currency-table th {
+    width: 36%;
+    padding: 9px 8px;
+    font-size: 9px;
+    line-height: 1.4;
+}
+
+.wiki-lorienn .currency-table td {
+    padding: 9px 8px;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+/* DESPLAZAMIENTO HORIZONTAL */
+
+.wiki-lorienn .stratigraphy-scroll,
+.wiki-lorienn .seasonal-scroll,
+.wiki-lorienn .pib-table-scroll,
+.wiki-lorienn .currency-table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+ }
 }
 
 /* =====================
@@ -5640,6 +5774,48 @@
 
     .wiki-lorienn .seasonal-heading h3 {
         font-size: 12px;
+    }
+
+    .wiki-lorienn .wiki-table {
+    font-size: 10px;
+    }
+
+    .wiki-lorienn .wiki-table-head > div,
+    .wiki-lorienn .wiki-table-row > div {
+    padding: 6px 5px;
+    }
+
+    .wiki-lorienn .stratigraphy-table th,
+    .wiki-lorienn .seasonal-table th {
+    font-size: 9px;
+    padding: 8px 5px;
+    }
+
+    .wiki-lorienn .stratigraphy-table td,
+    .wiki-lorienn .seasonal-table td {
+    font-size: 9px;
+    padding: 8px 6px;
+    }
+
+    .wiki-lorienn .stratigraphy-table li {
+    font-size: 9px;
+    }
+
+    .wiki-lorienn .pib-table th,
+    .wiki-lorienn .pib-table td {
+    padding: 8px;
+    font-size: 9px;
+    }
+
+    .wiki-lorienn .pib-value,
+    .wiki-lorienn .pib-table tfoot td:last-child {
+    font-size: 10px;
+    }
+
+   .wiki-lorienn .currency-table th,
+   .wiki-lorienn .currency-table td {
+    padding: 8px 6px;
+    font-size: 9px;
     }
 
 }
