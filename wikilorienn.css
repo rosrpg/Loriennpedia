@@ -4631,6 +4631,240 @@
     font-size: 9px;
     line-height: 1.6;
 }
+
+/* ========================================
+   SISTEMA DE ATENCIÓN SANITARIA
+======================================== */
+
+.wiki-lorienn .wiki-health-system {
+    margin: 25px 0;
+    padding: 24px;
+    background: #f8fafc;
+    border: 1px solid #d5dfe7;
+    border-radius: 5px;
+    color: #344454;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.wiki-lorienn .health-heading {
+    margin-bottom: 22px;
+}
+
+.wiki-lorienn .health-kicker {
+    display: block;
+    margin-bottom: 6px;
+    color: #7895aa;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.wiki-lorienn .health-heading h3 {
+    margin: 0 0 8px;
+    color: #405f73;
+    font-family: Georgia, serif;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.wiki-lorienn .health-heading p {
+    max-width: 760px;
+    margin: 0;
+    color: #71808c;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.wiki-lorienn .health-main-node {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 15px;
+    background: #405f73;
+    border: 1px solid #344f61;
+    border-radius: 4px;
+    color: #fff;
+    text-align: left;
+}
+
+.wiki-lorienn .health-main-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: rgba(255,255,255,.13);
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.wiki-lorienn .health-main-node strong,
+.wiki-lorienn .health-main-node small {
+    display: block;
+}
+
+.wiki-lorienn .health-main-node strong {
+    font-size: 11px;
+    letter-spacing: .7px;
+}
+
+.wiki-lorienn .health-main-node small {
+    margin-top: 4px;
+    color: #dce6ec;
+    font-size: 9px;
+}
+
+.wiki-lorienn .health-connector {
+    width: 1px;
+    height: 25px;
+    margin: 0 auto;
+    background: #aabac6;
+}
+
+.wiki-lorienn .health-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.wiki-lorienn .health-card {
+    min-width: 0;
+    padding: 17px 15px;
+    background: #fff;
+    border: 1px solid #d5dfe7;
+    border-top: 3px solid #7895aa;
+    border-radius: 4px;
+}
+
+.wiki-lorienn .health-primary {
+    border-top-color: #7895aa;
+}
+
+.wiki-lorienn .health-hospital {
+    border-top-color: #405f73;
+}
+
+.wiki-lorienn .health-emergency {
+    border-top-color: #a17c72;
+}
+
+.wiki-lorienn .health-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.wiki-lorienn .health-number {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: #edf3f7;
+    border-radius: 3px;
+    color: #405f73;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wiki-lorienn .health-card h4 {
+    margin: 0;
+    color: #405f73;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.wiki-lorienn .health-location {
+    display: block;
+    margin-top: 5px;
+    color: #8a9aa6;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: .7px;
+    line-height: 1.5;
+}
+
+.wiki-lorienn .health-description {
+    min-height: 52px;
+    margin: 0 0 13px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5ebf0;
+    color: #71808c;
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+.wiki-lorienn .health-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wiki-lorienn .health-card li {
+    position: relative;
+    padding-left: 13px;
+}
+
+.wiki-lorienn .health-card li::before {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    background: #7895aa;
+    border-radius: 50%;
+    content: "";
+}
+
+.wiki-lorienn .health-card li strong,
+.wiki-lorienn .health-card li span {
+    display: block;
+}
+
+.wiki-lorienn .health-card li strong {
+    color: #40505e;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.wiki-lorienn .health-card li span {
+    margin-top: 3px;
+    color: #7b8994;
+    font-size: 9px;
+    line-height: 1.6;
+}
+
+.wiki-lorienn .health-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    padding: 11px 13px;
+    background: #edf3f7;
+    border-left: 3px solid #7895aa;
+}
+
+.wiki-lorienn .health-footer > span {
+    color: #7895aa;
+    font-size: 16px;
+}
+
+.wiki-lorienn .health-footer p {
+    margin: 0;
+    color: #667784;
+    font-size: 9px;
+    line-height: 1.6;
+}
           
 /* ===============
    RESPONSIVE
