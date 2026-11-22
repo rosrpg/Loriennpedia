@@ -119,8 +119,26 @@
     --wiki-title: #edf2f6;
     --wiki-surface: #26323d;
     --wiki-surface-alt: #2c3945;
+
+    color: #e4eaf0 !important;
 }
 
+.wiki-lorienn[data-theme="dark"] .wiki-text {
+    color: #e4eaf0 !important;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-title,
+.wiki-lorienn[data-theme="dark"] .wiki-section-toggle,
+.wiki-lorienn[data-theme="dark"] .wiki-subsection,
+.wiki-lorienn[data-theme="dark"] .wiki-lore-box-title {
+    color: #edf2f6 !important;
+}
+
+.wiki-lorienn[data-theme="dark"] .wiki-subtitle,
+.wiki-lorienn[data-theme="dark"] .wiki-hatnote,
+.wiki-lorienn[data-theme="dark"] .wiki-caption {
+    color: #b3c0cc !important;
+}
 
 /* CABECERA */
 
