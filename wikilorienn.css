@@ -129,8 +129,7 @@
 
 .wiki-lorienn[data-theme="dark"] .wiki-title,
 .wiki-lorienn[data-theme="dark"] .wiki-section-toggle,
-.wiki-lorienn[data-theme="dark"] .wiki-subsection,
-.wiki-lorienn[data-theme="dark"] .wiki-lore-box-title {
+.wiki-lorienn[data-theme="dark"] .wiki-subsection {
     color: #edf2f6 !important;
 }
 
