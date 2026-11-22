@@ -12,6 +12,10 @@
     --wiki-muted: #71808c;
     --wiki-white: #fff;
 
+    --wiki-title: #202122;
+    --wiki-surface: #f8f9fa;
+    --wiki-surface-alt: #edf3f7;
+
     font-family: Roboto, Lato, Arial, sans-serif;
     background: var(--wiki-white);
     color: #202122;
