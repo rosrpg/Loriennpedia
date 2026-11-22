@@ -4951,7 +4951,7 @@
     }
 
     .wiki-lorienn .terrain-heading h3 {
-        font-size: 15px;
+        font-size: 11px;
     }
 
     .wiki-lorienn .terrain-graphic {
@@ -5042,7 +5042,7 @@
 
     .wiki-lorienn .climate-factor-heading {
         text-align: left;
-        font-size: 11px;
+        font-size: 9px;
     }
 
     .wiki-lorienn .seasonal-table {
@@ -5057,7 +5057,7 @@
     }
 
     .wiki-lorienn .climate-factor ul {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     /* DINÁMICA ESTACIONAL */
@@ -5141,7 +5141,7 @@
     }
 
     .wiki-lorienn .fauna-card ul {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .wiki-lorienn .fauna-card li {
@@ -5157,7 +5157,7 @@
 
    .wiki-lorienn .economic-heading h3,
    .wiki-lorienn .pib-heading h3 {
-    font-size: 15px;
+    font-size: 11px;
 }
 
     .wiki-lorienn .economic-grid {
@@ -5172,25 +5172,26 @@
     .wiki-lorienn .economic-card h4 {
     font-size: 12px;
     min-height: 0;
-}
+    }
 
     .wiki-lorienn .economic-card ul {
     font-size: 9px;
-}
+    }
 
     .wiki-lorienn .economic-origin {
     padding: 11px 14px;
     font-size: 9px;
-}
+    }
 
     .wiki-lorienn .pib-table {
     min-width: 430px;
-}
+    }
 
     .wiki-lorienn .pib-table td,
     .wiki-lorienn .pib-table th {
     padding: 10px;
     }
+    
     /* COMERCIO EXTERIOR Y SISTEMA MONETARIO */
 
     .wiki-lorienn .wiki-foreign-trade,
@@ -5226,7 +5227,7 @@
     }
 
     .wiki-lorienn .trade-card-body ul {
-    font-size: 10px;
+    font-size: 9px;
     line-height: 1.7;
     }
 
@@ -5275,7 +5276,7 @@
     font-size: 10px;
    }
 
-    /* TURISMO */
+/* TURISMO */
 
    .wiki-lorienn .wiki-tourism-offer {
     padding: 16px 10px;
@@ -5284,21 +5285,21 @@
    .wiki-lorienn .tourism-heading h3,
    .wiki-lorienn .territorial-heading h3 {
     font-size: 16px;
-}
+   }
 
    .wiki-lorienn .tourism-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 9px;
-}
+   }
 
    .wiki-lorienn .tourism-card {
     padding: 13px 10px;
-}
+   }
 
    .wiki-lorienn .tourism-card h4 {
     min-height: 0;
-    font-size: 11px;
-}
+    font-size: 9px;
+   }
 
    .wiki-lorienn .tourism-card ul {
     font-size: 9px;
@@ -5308,29 +5309,29 @@
 
   .wiki-lorienn .wiki-territorial-structure {
     padding: 16px 10px;
-}
+  }
 
    .wiki-lorienn .territorial-details {
     grid-template-columns: 1fr;
     gap: 9px;
-}
+  }
 
    .wiki-lorienn .territorial-regional-grid {
     grid-template-columns: 1fr;
     gap: 9px;
-}
+  }
 
    .wiki-lorienn .territorial-peripheral-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 9px;
-}
+  }
 
    .wiki-lorienn .territorial-place,
    .wiki-lorienn .territorial-peripheral {
     padding: 12px;
-   }
+  }
 
-    /* CONECTIVIDAD MULTIMODAL */
+/* CONECTIVIDAD MULTIMODAL */
 
   .wiki-lorienn .wiki-multimodal,
   .wiki-lorienn .wiki-secular-state {
@@ -5385,7 +5386,7 @@
 
    .wiki-lorienn .secular-card h4 {
     min-height: 0;
-    font-size: 12px;
+    font-size: 9px;
    }
 
    .wiki-lorienn .secular-card p {
@@ -5405,48 +5406,50 @@
     font-size: 8px;
     }
 
-    /* SISTEMA EDUCATIVO */
+/* SISTEMA EDUCATIVO */
 
    .wiki-lorienn .wiki-education-system {
     padding: 19px 11px;
     margin: 20px auto;
-}
+   }
 
    .wiki-lorienn .education-heading {
     margin-bottom: 22px;
-}
+   }
 
    .wiki-lorienn .education-heading h3 {
-    font-size: 19px;
-}
+    font-size: 14px;
+   }
 
    .wiki-lorienn .education-heading p {
     font-size: 10px;
-}
+    text-align: justify;
+   }
 
    .wiki-lorienn .education-card {
     gap: 11px;
     min-height: 90px;
     padding: 14px 12px;
-}
+   }
 
    .wiki-lorienn .education-number {
     width: 31px;
     height: 31px;
     font-size: 11px;
-}
+   }
 
    .wiki-lorienn .education-card h4 {
     font-size: 14px;
-}
+   }
 
    .wiki-lorienn .education-card p {
     font-size: 9px;
-}
+    text-align: justify;
+   }
 
    .wiki-lorienn .education-connector {
     height: 23px;
-}
+   }
 
 /* BIFURCACIÓN */
 
@@ -5507,54 +5510,54 @@
     font-size: 8px;
     }
 
-    /* ATENCIÓN SANITARIA */
+/* ATENCIÓN SANITARIA */
 
-.wiki-lorienn .wiki-health-system,
-.wiki-lorienn .wiki-sports-system,
-.wiki-lorienn .wiki-festivals {
+   .wiki-lorienn .wiki-health-system,
+   .wiki-lorienn .wiki-sports-system,
+   .wiki-lorienn .wiki-festivals {
     padding: 16px 11px;
-}
+   }
 
-.wiki-lorienn .health-heading h3,
-.wiki-lorienn .sports-heading h3,
-.wiki-lorienn .festivals-heading h3 {
-    font-size: 16px;
-}
+   .wiki-lorienn .health-heading h3,
+   .wiki-lorienn .sports-heading h3,
+   .wiki-lorienn .festivals-heading h3 {
+    font-size: 13px;
+   }
 
-.wiki-lorienn .health-grid {
+   .wiki-lorienn .health-grid {
     grid-template-columns: 1fr;
     gap: 9px;
-}
+   }
 
-.wiki-lorienn .health-card {
+   .wiki-lorienn .health-card {
     padding: 14px;
-}
+   }
 
-.wiki-lorienn .health-description {
+   .wiki-lorienn .health-description {
     min-height: 0;
-}
+   }
 
-.wiki-lorienn .health-card ul {
+  .wiki-lorienn .health-card ul {
     gap: 10px;
-}
+  }
 
 /* DEPORTES */
 
-.wiki-lorienn .sports-grid {
+   .wiki-lorienn .sports-grid {
     grid-template-columns: 1fr;
     gap: 9px;
-}
+   }
 
-.wiki-lorienn .sports-card {
+   .wiki-lorienn .sports-card {
     padding: 14px;
-}
+   }
 
-.wiki-lorienn .sports-card h4,
-.wiki-lorienn .sports-card > p {
+  .wiki-lorienn .sports-card h4,
+  .wiki-lorienn .sports-card > p {
     min-height: 0;
-}
+  }
 
-.wiki-lorienn .sports-card ul {
+  .wiki-lorienn .sports-card ul {
     gap: 10px;
   }
 
@@ -5564,26 +5567,27 @@
     grid-template-columns: 58px minmax(0, 1fr);
     gap: 10px;
     padding: 11px;
-}
+  }
 
   .wiki-lorienn .festival-date {
     min-height: 65px;
-}
+  }
 
   .wiki-lorienn .festival-symbol {
     font-size: 19px;
-}
+  }
 
   .wiki-lorienn .festival-season {
     font-size: 7px;
-}
+  }
 
   .wiki-lorienn .festival-content h4 {
     font-size: 14px;
-}
+  }
 
   .wiki-lorienn .festival-content p {
     font-size: 9px;
+    text-align: justify;
   }
 
   .wiki-lorienn .festival-number {
@@ -5596,47 +5600,47 @@
 
 /* TABLA GENERAL */
 
-.wiki-lorienn .wiki-table {
+  .wiki-lorienn .wiki-table {
     font-size: 11px;
-}
+  }
 
-.wiki-lorienn .wiki-table-head,
-.wiki-lorienn .wiki-table-row {
+  .wiki-lorienn .wiki-table-head,
+  .wiki-lorienn .wiki-table-row {
     grid-template-columns: 32% 68%;
-}
+  }
 
-.wiki-lorienn .wiki-table-head > div,
-.wiki-lorienn .wiki-table-row > div {
+  .wiki-lorienn .wiki-table-head > div,
+  .wiki-lorienn .wiki-table-row > div {
     padding: 7px 6px;
     line-height: 1.45;
-}
+  }
 
 /* ESTRATIGRAFÍA */
 
-.wiki-lorienn .stratigraphy-table {
+  .wiki-lorienn .stratigraphy-table {
     min-width: 620px;
     font-size: 10px;
-}
+  }
 
-.wiki-lorienn .stratigraphy-table th {
+  .wiki-lorienn .stratigraphy-table th {
     padding: 10px 6px;
     font-size: 10px;
-}
+  }
 
-.wiki-lorienn .stratigraphy-table td {
+  .wiki-lorienn .stratigraphy-table td {
     padding: 10px 9px;
-}
+  }
 
-.wiki-lorienn .stratigraphy-table li {
+  .wiki-lorienn .stratigraphy-table li {
     font-size: 10px;
     line-height: 1.45;
     margin: 6px 0;
-}
+  }
 
-.wiki-lorienn .stratigraphy-period {
+  .wiki-lorienn .stratigraphy-period {
     font-size: 8px;
     margin-bottom: 7px;
-}
+  }
 
 /* DINÁMICA ESTACIONAL */
 
